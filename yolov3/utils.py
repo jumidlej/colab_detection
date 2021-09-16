@@ -15,8 +15,8 @@ import random
 import colorsys
 import numpy as np
 import tensorflow as tf
-from yolov3.configs import *
-from yolov3.yolov4 import *
+from colab_detection.yolov3.configs import *
+from colab_detection.yolov3.yolov4 import *
 from tensorflow.python.saved_model import tag_constants
 
 def load_yolo_weights(model, weights_file):
