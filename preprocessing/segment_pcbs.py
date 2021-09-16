@@ -4,7 +4,7 @@ import math
 import sys
 import imutils
 from os import listdir
-from preprocessing.filter import filter_screws
+from colab_detection.preprocessing.filter import filter_screws
 
 def closing(image):
     gray = cv.cvtColor(image, cv.COLOR_BGR2GRAY)
